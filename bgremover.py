@@ -60,16 +60,6 @@ label1.pack()
 frame = tk.Frame(window)
 frame.pack()
 
-# img1 = Image.open("output_cat.png")
-# img2 = Image.open("output_trex-hardbg.png")
-
-# x, y = 150, 150
-
-# resized_img1 = img1.resize((x, y))
-# resized_img2 = img2.resize((x, y))
-
-# tk_img1 = ImageTk.PhotoImage(resized_img1)
-# tk_img2 = ImageTk.PhotoImage(resized_img2)
 
 image1 = tk.Label(frame)
 image1.grid(row=0, column=0)
@@ -77,12 +67,3 @@ image2 = tk.Label(frame)
 image2.grid(row=0, column=1)
 
 window.mainloop()
-
-
-# input_path = "trex-hardbg.jpg"
-
-# output_path = "output_"+input_path.split(".jpg")[0]+".png"
-
-# Input = Image.open(input_path)
-# output = remove(Input)
-# output.save(output_path)
